@@ -4,7 +4,7 @@ echo $ver
 version=`echo $ver | cut -d " " -f2`
 echo $version
 sudo apt update
-sudo apt install -y default-jdk wget git
+sudo apt install -y default-jre wget git
 sudo cp -v context.xml /home/$USER/
 sudo cp -v tomcat-users.xml /home/$USER/
 cd /home/$USER/
