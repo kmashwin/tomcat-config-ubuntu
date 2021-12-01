@@ -5,6 +5,7 @@ Create a temporary dircctory and clone this repository
 Navigate to the directory where install-tomcat.sh, context.xml and tomcat-users.xml is present
 
 now execute install-tomcat.sh in bash shell
+Note: Do not use sudo to execute the script
 
 If the path working directory is not same as install-tomcat.sh, context.xml and tomcat-users.xml, the content.xml and tomcat-users.xml wont be changed
 
